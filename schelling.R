@@ -154,7 +154,7 @@ segregation_function <- function(world, dims)
 }
 
 
-dims <- 20
+dims <- 30
 world <- matrix(sample(c(0,1, NA), size = dims * dims, replace = TRUE, 
   prob = c(0.3, 0.3, 0.3)), nrow = dims, ncol = dims)
 image(world)
